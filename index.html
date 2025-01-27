@@ -1,7 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel = "stylesheet" href = "styles/style.css">
+<style>html {
+  height: 100%;
+  width: 100%;
+}
+.top_buttons {
+  width:475px;
+  display: inline-block;
+}
+body,html  {
+  height: 100%;
+}
+.B2T-table {
+background-color: silver;
+border-style: solid;
+border-color: black;
+margin: 5px;
+outline: silver solid 20px;
+}
+.background-transition {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: backgroundFade 11s infinite alternate;
+}
+
+@keyframes backgroundFade {
+  0% {
+    background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b0ad0e2650d.jpg");
+  }
+  50% {
+    background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b08dfa09483.jpg");
+  }
+  100% {
+    background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/639aa5d9b5085.jpg");
+  }
+}
+
+.background-transition2 {
+height: 33vh;
+width: 33vw;
+display: flex;
+justify-content: left;
+align-items: top;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+animation: backgroundFade1 9s infinite alternate;
+}
+
+@keyframes backgroundFade1 {
+0% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/639aa5d9b5085.jpg");
+}
+50% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b08dfa09483.jpg");
+}
+100% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b0ad0e2650d.jpg");
+}
+}
+
+.background-transition3 {
+height: 33vh;
+width: 33vw;
+display: flex;
+justify-content: left;
+align-items: top;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+animation: backgroundFade3 13s infinite alternate;
+
+}
+@keyframes backgroundFade3 {
+0% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b08dfa09483.jpg");
+}
+50% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/61b0ad0e2650d.jpg");
+}
+100% {
+  background-image: url("https://goodwillartemisinstitute.s3.us-east-2.amazonaws.com/courses/639aa5d9b5085.jpg");
+}
+}
+ul.a {  
+list-style-type: circle;
+border-style: solid;
+border-color: green;
+margin: 12px;
+outline: tomato solid 10px;
+}
+ul.b {   
+list-style-type: square;
+}
+
+table.B2T, tr.B2T, th.B2T, td.B2T {
+border: 3px solid;
+}
+body {
+background-image: linear-gradient(to bottom, powderblue 0%, powderblue 45%, white 65%, white 100%);
+min-height: 100vh;
+}
+a {
+font-size: 150%;
+color: white
+} 
+button:hover {
+background-color: rgb(30,20,200);
+opacity: 0.5;
+box-shadow: 3px 4px 10px rgba(0,0,0,.55);
+}
+button:active {
+opacity: 0.9;
+}
+button {
+color: red;
+font-size: 18px;
+height: 35px;
+width: 450px;
+margin: 3px;
+background-color: white;
+border-radius: 12px;
+transition: opacity .24s, background-color .24s;
+}</style>
 <title>ARTEMIS INSTITUTE</title>
 </head>
 <body>
